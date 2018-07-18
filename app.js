@@ -17,7 +17,7 @@ function getJokes(e){
       document.getElementById('img1').src=`${imgSrc}`;
       document.querySelector('.jokes').innerHTML = explanation;
       document.querySelector('.title').innerHTML = title;
-      document.querySelector('.date').innerHTML = date;
+      document.querySelector('.date').innerHTML = `Date: ${date}`;
       document.querySelector('.photographer').innerHTML = `Photographer: ${photographer}`;
  document.querySelector('.get-jokes').style.display = "none";
     }

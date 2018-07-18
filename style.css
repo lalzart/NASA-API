@@ -17,8 +17,17 @@ img{
 }
 .photographer, .date{
   font-size:1.2em;
+  display: inline;
+  color:#555;
 }
 .jokes{
   padding:1em;
   font-size:1em;
+  
+}
+.phd{
+  display:flex;
+  justify-content: space-evenly;
+  padding-left:40px;
+  padding-right:40px;
 }
